@@ -14,7 +14,7 @@ module.exports = function(grunt) {
         dest: 'animate.css'
       }
     },
-
+/*
     autoprefixer: { // https://github.com/nDmitry/grunt-autoprefixer
       options: {
         browsers: ['last 2 versions', 'bb 10']
@@ -23,7 +23,7 @@ module.exports = function(grunt) {
         src: 'animate.css' // output file
       }
     },
-
+*/
     cssmin: {
       minify: {
         src: ['animate.css'],
