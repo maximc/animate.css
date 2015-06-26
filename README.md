@@ -3,6 +3,18 @@
 
 `animate.css` is a bunch of cool, fun, and cross-browser animations for you to use in your projects. Great for emphasis, home pages, sliders, and general just-add-water-awesomeness.
 
+### Autoprefixer disabled (for PrefixFree using). File size reduced x2
+
+Compile steps:
+
+1. npm install -g grunt-cli
+
+2. cd /path/to/animate.css/dir
+
+3. npm install
+
+4. grunt --force
+
 ##Basic Usage
 1. Include the stylesheet on your document's `<head>`
 
